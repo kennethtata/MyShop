@@ -99,6 +99,22 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyShop.Core\MyShop.Core.csproj">
+      <Project>{9980f280-f242-4180-a37f-4158081b9c23}</Project>
+      <Name>MyShop.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAccess.SQL\MyShop.DataAccess.SQL.csproj">
+      <Project>{b8b275d6-ae9e-4ca2-9d18-c088916bf515}</Project>
+      <Name>MyShop.DataAccess.SQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAcess.InMemory\MyShop.DataAcess.InMemory.csproj">
+      <Project>{2b87f99f-6d71-4ae0-9e20-7f99f1bd3a3a}</Project>
+      <Name>MyShop.DataAcess.InMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyShop.Services\MyShop.Services.csproj">
+      <Project>{898e50df-e68e-4f08-8289-dac89b79e19d}</Project>
+      <Name>MyShop.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyShop.WebUI\MyShop.WebUI.csproj">
       <Project>{84EE802F-3E4D-4AA7-BF55-8AC2EB438D74}</Project>
       <Name>MyShop.WebUI</Name>
